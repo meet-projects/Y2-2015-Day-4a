@@ -30,6 +30,12 @@ omri = Person(
         nationality = 'Israeli',
         hometown = 'Jerusalem')
 
+mustafa = Person(
+        name = 'Mustafa Hussein',
+        gender = 'male',
+        nationality = 'Palestinian',
+        hometown = 'Jerusalem')
+
 # This deletes everything in your database.
 session.query(Person).delete()
 session.commit()
@@ -38,5 +44,6 @@ session.commit()
 session.add(lorenzo)
 session.add(michele)
 session.add(omri)
+session.add(mustafa)
 session.commit()
 

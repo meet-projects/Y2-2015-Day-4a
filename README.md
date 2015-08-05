@@ -18,8 +18,8 @@ please run:
 
 Now, set up the database. *Warning: if you already have people in the
 database, this command will delete all of them and reset it to Lorenzo,
-Michele, and Omri.* You can use this any time if you mess up the database or
-add too many people.
+Michele, Omri, and Mustafa.* You can use this any time if you mess up the
+database or add too many people.
 
     python initialize.py
 
@@ -28,8 +28,8 @@ For this lab, you'll write your code either interactively in Python, or in
 
 #### Exercise 1: Create
 Write code in `add_to_database.py` to add you and your partner to the database.
-Make sure that you have five entries (Lorenzo, Michele, Omri, and the two of
-you) by using `session.query(Person).all()`.
+Make sure that you have six entries (Lorenzo, Michele, Omri, Mustafa, and the
+two of you) by using `session.query(Person).all()`.
 
 #### Exercise 2: Read
 Write a function `find_nationality` in `add_to_database.py` that takes a nationality
@@ -45,6 +45,6 @@ Suppose Michele moves from Boston to Jerusalem. Update her location in the
 database.
 
 #### Exercise 4: Delete
-Remove all the instructors from the database so that only students and TAs
-are left.
+Remove all the instructors and staff from the database so that only students
+and TAs are left.
 
