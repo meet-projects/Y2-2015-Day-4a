@@ -4,6 +4,18 @@ Start by opening a terminal. Type the following commands:
     git clone https://github.com/meet-projects/Y2-2015-Day-4a
     cd Y2-2015-Day-4a
 
+Now, set up Python. Here's what you run the first time after you log in:
+
+    exec bash
+    wget http://tinyurl.com/MEETpython
+    source MEETpython
+
+If you have already run the code above but you've opened a new terminal window,
+please run:
+
+    exec bash
+    source ~/y2-venv/bin/activate
+
 Now, set up the database. *Warning: if you already have people in the
 database, this command will delete all of them and reset it to Lorenzo,
 Michele, and Omri.* You can use this any time if you mess up the database or
@@ -11,8 +23,8 @@ add too many people.
 
     python initialize.py
 
-For this lab, you'll write your code either interactively in Python,
-or in `add_to_database.py`.
+For this lab, you'll write your code either interactively in Python, or in
+`add_to_database.py`.
 
 #### Exercise 1: Create
 Write code in `add_to_database.py` to add you and your partner to the database.
